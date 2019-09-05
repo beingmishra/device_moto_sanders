@@ -145,6 +145,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += android.hardware.media.omx
 
+# Device mapper verity
+PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
+PRODUCT_VENDOR_VERITY_PARTITION=/dev/block/bootdevice/by-name/oem
+$(call inherit-product, build/target/product/verity.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
