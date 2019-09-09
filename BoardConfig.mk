@@ -26,7 +26,6 @@ BOARD_VENDOR := motorola-qcom
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Platform
-TARGET_BOARD_PLATFORM := msm8953
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 
 # Bootloader
@@ -213,7 +212,6 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_HAS_NO_WLAN_STATS := true
 
 # QC flags
-BOARD_USES_QCOM_HARDWARE := true
 BOARD_USES_QC_TIME_SERVICES := true
 
 # Recovery
