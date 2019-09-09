@@ -150,6 +150,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += android.hardware.media.omx
 
+# A2DP
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.a2dp@1.0-impl \
+    android.hardware.bluetooth.a2dp@1.0-service
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
