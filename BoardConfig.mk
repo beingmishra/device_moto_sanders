@@ -244,6 +244,7 @@ TARGET_USES_MKE2FS := true
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_HAS_QCOM_WLAN_SDK          := true
 BOARD_WLAN_DEVICE                := qcwcn
+BOARD_USES_AOSP_WLAN_HAL         := true
 BOARD_HOSTAPD_DRIVER             := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_qcwcn
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
