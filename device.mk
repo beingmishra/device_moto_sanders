@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     libbthost_if
 
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8996
+
 # Camera
 PRODUCT_PACKAGES += \
     libbson \
