@@ -223,7 +223,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/minimal
+include device/qcom/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
