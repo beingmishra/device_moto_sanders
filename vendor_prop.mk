@@ -312,6 +312,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.bpteth=0x2ee7 \
     ro.usb.bpteth_adb=0x2ee8
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true
+
 # Volte
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.radio.force_on_dc=true \
